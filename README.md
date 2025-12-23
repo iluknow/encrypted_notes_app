@@ -50,10 +50,13 @@ notes (
     encrypted_content TEXT,  -- Зашифрованный текст (Base64)
     iv TEXT,                 -- Вектор инициализации (Base64)
     created_at DATETIME
-)
-##  Установка (хотя зачем она, ну если вдруг надо)
+) 
+```
+
+### Установка (хотя зачем она, ну если вдруг надо)
 
 1. Клонируйте репозиторий:
+
 ```bash
 git clone https://github.com/ваш-логин/encrypted-notes-app.git
 cd encrypted-notes-app
