@@ -1,0 +1,89 @@
+/* style.css - разместить в корне проекта */
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.note-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 15px;
+    transition: transform 0.3s;
+}
+
+.note-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+}
+
+.btn-encrypted {
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.btn-encrypted:hover {
+    background: linear-gradient(to right, #5a67d8, #6b46c1);
+    color: white;
+    transform: scale(1.05);
+}
+
+.password-input {
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 16px;
+    border: 2px solid #e0e0e0;
+    transition: border 0.3s;
+}
+
+.password-input:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+}
+
+.textarea-note {
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 16px;
+    border: 2px solid #e0e0e0;
+    transition: border 0.3s;
+    min-height: 200px;
+    resize: vertical;
+}
+
+.textarea-note:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+}
+
+.note-content {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    font-family: 'Courier New', monospace;
+    line-height: 1.6;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #666;
+    font-size: 14px;
+}

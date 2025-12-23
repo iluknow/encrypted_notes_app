@@ -1,0 +1,76 @@
+# .gitignore для PHP проекта
+
+# Файлы базы данных
+database/
+*.db
+*.sqlite
+*.sqlite3
+
+# Временные файлы
+*.tmp
+*.temp
+*.log
+
+# Файлы окружения
+.env
+.env.local
+.env.*.local
+config.local.php
+
+# Логи
+*.log
+logs/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Папки зависимостей
+vendor/
+node_modules/
+
+# Исключения для VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Исключения для PHPStorm
+.idea/
+
+# Исключения для Windows
+desktop.ini
+
+# Исключения для macOS
+__MACOSX
+
+# Файлы загрузок
+uploads/
+temp/
+tmp/
+
+# Файлы сессий
+sess_*
+
+# Кэш
+*.cache
+
+# Документация
+docs/_build/
+
+# Бэкапы
+*.bak
+*.backup
+
+# Прочее
+composer.lock
+package-lock.json
+yarn.lock
+
+# Исключаем большие файлы
+*.zip
+*.tar
+*.gz
